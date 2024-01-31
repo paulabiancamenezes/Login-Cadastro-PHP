@@ -58,17 +58,23 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
-
+    <style type="text/css">
+      *{
+        font-family: 'Barlow', sans-serif;
+      }
+    </style>
     <title>Cadastre-se</title>
   </head>
   <body>
 
     <section class="form">
+      <div class="form-header">
+          <h3>Olá barbeiro! Crie sua conta aqui</h3>
+        </div>
       <div class="login">
         
         <form method="post">
           <div class="form-group">
-            <h2>Olá barbeiro! Crie sua conta</h2>
             <label for="exampleInputText">Salão:</label>
             <div class="input-group">
               <span class="input-group-text"><i class="bi bi-shop-window"></i></span>

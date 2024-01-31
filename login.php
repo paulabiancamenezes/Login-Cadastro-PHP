@@ -59,14 +59,16 @@
   </head>
   <body>
     <section class="form">
+      <div class="form-header">
+          <h3>Olá barbeiro! Bem vindo de volta</h3>
+        </div>
       <div class="login">
         <form method="post">
           <div class="form-group">
-            <h2>Bem vindo de volta!</h2>
             <label for="exampleInputEmail1">E-mail:</label>
             <div class="input-group">
               <span class="input-group-text"><i class="bi bi-person-fill"></i></span>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digite seu e-mail" name="email">
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digite seu e-mail" name="email" required>
             </div>
             
           </div>
@@ -74,7 +76,7 @@
             <label for="exampleInputPassword1">Senha:</label>
             <div class="input-group">
               <span class="input-group-text"><i class="bi bi-key-fill"></i></span>
-              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Digite sua senha" name="senha">
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Digite sua senha" name="senha" required maxlength="20" minlength="8">
             </div>
           </div>
           <div class="form-group form-check">
@@ -84,12 +86,5 @@
         </form>
       </div>
     </section>
-    
-
-    <!-- JavaScript (Opcional) -->
-    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
   </body>
 </html>
